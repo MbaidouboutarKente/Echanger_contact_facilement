@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactSphere - Votre carnet de contacts intelligent</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/icon-app.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="assets/logo.png" alt="ContactSphere Logo" class="logo">
+                <span class="brand-name">ContactSphere</span>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#fonctionnalites">Fonctionnalités</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#telecharger">Télécharger</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Transformez la manière dont vous gérez vos contacts</h1>
+                <p class="hero-subtitle">ContactSphere révolutionne la gestion de contacts avec QR codes, détection SIM et transfert intelligent</p>
+                <div class="hero-buttons">
+                    <a href="#telecharger" class="btn btn-primary">
+                        <i class="fab fa-google-play"></i> Google Play
+                    </a>
+                    <a href="#telecharger" class="btn btn-secondary">
+                        <i class="fab fa-apple"></i> App Store
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/app-screenshot1.png" alt="Capture d'écran ContactSphere">
+            </div>
+        </div>
+    </section>
+
+    <!-- Fonctionnalités -->
+    <section class="features" id="fonctionnalites">
+        <div class="container">
+            <h2 class="section-title">Fonctionnalités principales</h2>
+            <p class="section-subtitle">Découvrez tout ce que ContactSphere peut faire pour vous</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-qrcode"></i>
+                    </div>
+                    <h3>QR Codes intelligents</h3>
+                    <p>Générez et scannez des QR codes pour partager instantanément vos informations de contact</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sim-card"></i>
+                    </div>
+                    <h3>Détection SIM</h3>
+                    <p>Détection automatique des informations SIM et optimisation du transfert de contacts</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3>Transfert USSD</h3>
+                    <p>Instructions USSD intégrées pour un transfert de contacts sécurisé entre appareils</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <h3>Profils personnalisés</h3>
+                    <p>Créez et gérez plusieurs profils avec différentes informations professionnelles et personnelles</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Sécurité optimale</h3>
+                    <p>Toutes vos données sont stockées localement sur votre appareil pour une confidentialité maximale</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Synchronisation</h3>
+                    <p>Synchronisez vos contacts entre différents appareils de manière sécurisée</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- À propos -->
+    <section class="about" id="apropos">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Pourquoi choisir ContactSphere ?</h2>
+                <div class="about-text">
+                    <p>ContactSphere est né d'un constat simple : la gestion des contacts est souvent fastidieuse et peu intuitive. Nous avons créé une solution complète qui simplifie le partage et la gestion de vos contacts professionnels et personnels.</p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Interface utilisateur intuitive et moderne</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>100% gratuit et sans publicité intrusive</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Pas de collecte de données personnelles</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Support technique réactif</span>
+                        </div>
+                    </div>
+                    
+                    <p class="highlight">Plus de 10,000 utilisateurs satisfaits à travers le monde !</p>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="assets/app-screenshot2.png" alt="Interface ContactSphere">
+            </div>
+        </div>
+    </section>
+
+    <!-- Téléchargement -->
+    <section class="download" id="telecharger">
+        <div class="container">
+            <div class="download-card">
+                <h2>Téléchargez ContactSphere dès maintenant</h2>
+                <p>Disponible gratuitement sur Android. Version iOS bientôt disponible !</p>
+                
+                <div class="download-buttons">
+                    <a href="#" class="store-btn google-play">
+                        <div class="store-icon">
+                            <i class="fab fa-google-play"></i>
+                        </div>
+                        <div class="store-text">
+                            <span class="available">Disponible sur</span>
+                            <span class="store-name">Google Play</span>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="store-btn app-store">
+                        <div class="store-icon">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                        <div class="store-text">
+                            <span class="available">Bientôt sur</span>
+                            <span class="store-name">App Store</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="qrcode-section">
+                    <div class="qrcode">
+                        <!-- Placeholder for QR code -->
+                        <div class="qrcode-placeholder">
+                            <i class="fas fa-qrcode"></i>
+                            <p>Scan pour télécharger</p>
+                        </div>
+                    </div>
+                    <p class="qrcode-text">Scannez le QR code pour télécharger directement sur votre téléphone</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-nous</h2>
+            <p class="section-subtitle">Une question, une suggestion ? Nous sommes à votre écoute</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>support@contactsphere.app</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-comment-alt"></i>
+                        <div>
+                            <h3>Support</h3>
+                            <p>Centre d'aide en ligne</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h3>Site web</h3>
+                            <p>www.contactsphere.app</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" placeholder="Sujet" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Envoyer le message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/logo.png" alt="ContactSphere Logo" class="footer-logo">
+                    <span class="footer-brand-name">ContactSphere</span>
+                    <p class="footer-tagline">Votre carnet de contacts intelligent</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#fonctionnalites">Fonctionnalités</a></li>
+                        <li><a href="#apropos">À propos</a></li>
+                        <li><a href="#telecharger">Télécharger</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 ContactSphere. Tous droits réservés.</p>
+                <div class="footer-legal">
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">Conditions d'utilisation</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
